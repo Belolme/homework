@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="operation.MultiThread">
+  <grid id="27dc6" binding="main" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="6ede2" class="javax.swing.JLabel" binding="titile">
+        <constraints border-constraint="North"/>
+        <properties>
+          <font name="Microsoft YaHei" size="24" style="1"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="网上售票系统"/>
+        </properties>
+      </component>
+      <grid id="3bd25" binding="body" layout-manager="GridBagLayout">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <minimumSize width="158" height="203"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="c1051" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="109" height="30"/>
+              </grid>
+              <gridbag weightx="1.0" weighty="0.0"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="c588d" class="javax.swing.JLabel">
+                <constraints/>
+                <properties>
+                  <text value="选择路线："/>
+                </properties>
+              </component>
+              <component id="dec57" class="javax.swing.JComboBox" binding="lineCombox">
+                <constraints/>
+                <properties>
+                  <toolTipText value=""/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="f7d8c" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="154" height="154"/>
+              </grid>
+              <gridbag weightx="1.0" weighty="1.0"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="3e48c" class="javax.swing.JList" binding="lineList">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="50"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+            </children>
+          </grid>
+          <grid id="6d96b" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="-1" height="40"/>
+              </grid>
+              <gridbag weightx="1.0" weighty="0.0"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="f8809" class="javax.swing.JLabel">
+                <constraints/>
+                <properties>
+                  <text value="班次"/>
+                </properties>
+              </component>
+              <component id="71205" class="javax.swing.JComboBox" binding="window1TicketId">
+                <constraints/>
+                <properties/>
+              </component>
+              <component id="1b86f" class="javax.swing.JLabel">
+                <constraints/>
+                <properties>
+                  <text value="票数"/>
+                </properties>
+              </component>
+              <component id="ca1ac" class="javax.swing.JTextField" binding="window1Ticket">
+                <constraints/>
+                <properties>
+                  <columns value="10"/>
+                </properties>
+              </component>
+              <component id="5498b" class="javax.swing.JButton" binding="buyWindow1">
+                <constraints/>
+                <properties>
+                  <text value="1号窗购买"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="57ba4" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="-1" height="40"/>
+              </grid>
+              <gridbag weightx="1.0" weighty="0.0"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="6c416" class="javax.swing.JLabel">
+                <constraints/>
+                <properties>
+                  <text value="班次"/>
+                </properties>
+              </component>
+              <component id="c0946" class="javax.swing.JComboBox" binding="window2TicketId">
+                <constraints/>
+                <properties/>
+              </component>
+              <component id="ba5c7" class="javax.swing.JLabel">
+                <constraints/>
+                <properties>
+                  <text value="票数"/>
+                </properties>
+              </component>
+              <component id="5326a" class="javax.swing.JTextField" binding="window2Ticket">
+                <constraints/>
+                <properties>
+                  <columns value="10"/>
+                </properties>
+              </component>
+              <component id="a9bf6" class="javax.swing.JButton" binding="buyWindow2">
+                <constraints/>
+                <properties>
+                  <text value="2号窗购买"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="3ea04" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="8060e" class="javax.swing.JButton" binding="exit">
+            <constraints/>
+            <properties>
+              <text value="退出"/>
+            </properties>
+          </component>
+          <component id="3aff5" class="javax.swing.JButton" binding="commit">
+            <constraints/>
+            <properties>
+              <text value="确定"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

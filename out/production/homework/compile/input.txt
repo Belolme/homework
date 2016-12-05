@@ -1,0 +1,9 @@
+int main() {
+    int i = 100;
+
+    if (5 + i) {
+        int i = 0, j = 800, ke = 00;
+        int abc = 100+ 5 * 6 + (123 + 1);
+        int cde = i + abc;
+    }
+}
