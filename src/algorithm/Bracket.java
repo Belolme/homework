@@ -12,7 +12,7 @@ package algorithm;
 public class Bracket {
 
     private static String bracketString =
-            "((())(()(())(())))(())()()()((()())()(()((()()))()))()#";
+            "))((#";
 
     private static int index = 0;
 

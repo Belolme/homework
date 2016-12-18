@@ -9,9 +9,9 @@ import java.util.Scanner;
  */
 public class Chess {
 
-    private static final int X = 6;
+    private static final int X = 5;
 
-    private static final int Y = 8;
+    private static final int Y = 4;
 
     // debug
     private static long count = 0;

@@ -99,6 +99,6 @@ public class ASequence {
             System.out.println();
         }
 
-        System.out.println("a 的数量为:" + notes[alphaSequence.length()][alphaSequence.length()].a);
+        System.out.println("a 的数量为:" + notes[0][alphaSequence.length() - 1].a);
     }
 }

@@ -23,7 +23,7 @@ public class Permutation {
 
     public static void main(String[] args) {
 
-        Node[] array = new Node[3];
+        Node[] array = new Node[4];
         for (int i = 0; i < array.length; i++) {
             Node node = new Node();
             node.number = i + 1;
